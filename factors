@@ -10,4 +10,4 @@ if __name__ == "__main__":
         for line in f:
             line = int(line)
             val = prime_func(line)
-            print(f"{line} = {int(val[0])}*{val[1]}")
+            print(f"{line}={int(val[0])}*{val[1]}")
